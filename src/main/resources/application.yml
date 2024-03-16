@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: demo
+
+my:
+  custom:
+    property: Hello from application properties
+
+some:
+  other:
+    property: false
