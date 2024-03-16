@@ -8,4 +8,8 @@ public class SecondComponent {
         System.out.println("Hello from SecondComponent");
         firstComponent.printHello();
     }
+
+    public void printClassName() {
+        System.out.println(this.getClass().getName());
+    }
 }

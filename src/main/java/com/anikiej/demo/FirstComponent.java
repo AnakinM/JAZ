@@ -11,4 +11,8 @@ public class FirstComponent {
     public void printHello() {
         System.out.println("Hello from FirstComponent's method printHello()");
     }
+
+    public void printClassName() {
+        System.out.println(this.getClass().getName());
+    }
 }
